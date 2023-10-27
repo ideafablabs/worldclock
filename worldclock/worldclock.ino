@@ -126,7 +126,7 @@ void setup() {
   Serial.begin(115200);
 
   ws2812fx.init();
-  ws2812fx.setBrightness(30);
+  ws2812fx.setBrightness(45); // 216 leds X 0.06 amps per = 12.96 amps X 5V = 64.8 watts :O
 
   // parameters: index, start, stop, mode, color, speed, reverse
   ws2812fx.setSegment(0,  0,  16, FX_MODE_STATIC, BLACK, 1000, false);    // segment 0 is leds 0 - 16
