@@ -23,8 +23,8 @@ WS2812FX ws2812fx = WS2812FX(LED_COUNT, LED_PIN, NEO_GRB + NEO_KHZ800, 12, 12);
 
 int colorLib[24] = {BLUE, LTBLUE, LTBLUE, PURPLE, PURPLE, PINK, PINK, ORANGE, ORANGE, ORYELLOW, ORYELLOW, YELLOW, YELLOW, ORYELLOW, ORYELLOW, ORANGE, ORANGE, PINK, PINK, PURPLE, PURPLE, LTBLUE, LTBLUE, BLUE};
 
-const char* ssid       = "IdeaFabLabs";
-const char* password   = "betafish";
+const char* ssid       = "SSID";
+const char* password   = "PASSWORD";
 
 const char* ntpServer1 = "pool.ntp.org";
 const char* ntpServer2 = "time.nist.gov";
